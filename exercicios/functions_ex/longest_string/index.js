@@ -3,6 +3,9 @@
 // Expected Output : 'Development'
 
 function getLength(string){
-    return string.split(' ').map(word => 
-    word.length())
+    return string.split(' ').reduce((longestWord, currentWord) => {
+        return currentWord.length > longestWord.length ? currentWord : longestWord;
+    });
 }
+
+console.log(getLength("Web Development Tutotrial"));
