@@ -17,9 +17,9 @@ class Address{
     }
 }
 
-const person1 = new Person("Vivian", 19, "544 Taipas", "SP", "Brasil");
-const person2 = new Person("Alan", 22, "544 Taipas", "SP", "Brasil");
-const person3 = new Person("Laura", 18, "253 Rua Arataji", "SP", "Brasil");
+const person1 = new Person("SpongeBob", 29, "124 Conch St.", "Bikini Bottom", "Int. Waters");
+const person2 = new Person("Patrick", 42, "128 Conch St.", "Bikini Bottom", "Int. Waters");
+const person3 = new Person("Squidward", 48, "126 Conch St.", "Bikini Bottom", "Int. Waters");
 
 console.log(person1.address.street);
 console.log(person3.name);
