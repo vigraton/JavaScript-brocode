@@ -5,3 +5,16 @@ os the outer function.
 Allow for private variables and state maintenace
 Used frequently in JS frameworks: React, Vue, Angular
 */
+
+function outter(){
+    
+    let message = "Hi";
+
+    function inner(){
+        console.log(message);
+    }
+
+    inner();
+}
+
+outter();
