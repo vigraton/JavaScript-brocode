@@ -1,7 +1,0 @@
-EXAMPLE 3
-
-Step 1: Create the element
-
-Step 2: Add attributes/properties
-
-Step 3:Append element to DOM
