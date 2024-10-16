@@ -20,7 +20,7 @@ buttons.forEach(button => {
     button.addEventListener("click", event => {
 
         if(event.target.classList.contains("disabled")){
-            event.target.textContent += "🥱";
+            event.target.textContext += "🥱";
         }
         else{
             event.target.classList.replace("enabled", "disabled");
