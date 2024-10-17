@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(52, 177, 250);
+    border: none;
+    border-radius: 250px;
+    width: 120px;
+    height: 120px;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-weight: bold;
+    font-size: 2rem;
+}
