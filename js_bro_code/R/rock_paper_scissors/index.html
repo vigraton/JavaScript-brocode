@@ -6,20 +6,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body>    
     <h1>Choque em POW!</h1>
 
-    <div id="choices">
-        <button id="pedra">🪨</button>
-        <button id="papel">🧻</button>
-        <button id="tesoura">✂️</button>
+    <div class="choices">
+        <button onclick="playGame('pedra')">🪨</button>
+        <button onclick="playGame('papel')">🧻</button>
+        <button onclick="playGame('tesoura')">✂️</button>
+    </div>
+    
+    <div id="playerDisplay">Humano:</div>
+    <div id="computerDisplay">Computador:</div>
+    <div id="resultDisplay"></div>
+
+    <div class="scoreDisplay">Pontuação do Humano:
+        <span id="playerScoreDisplay">0</span>
     </div>
 
-    <div id="points">
-        <p>Humano:</p>
-        <p>Computador:</p>
-        <p>Resultado:</p>
+    <div class="scoreDisplay">Pontuação do Computador:
+        <span id="computerScoreDisplay">0</span>
     </div>
 
     <script src="index.js"></script>
