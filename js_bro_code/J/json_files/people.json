@@ -1,0 +1,24 @@
+[
+    {
+        "name":"Bob Esponja",
+        "age": 30,
+        "isEmployed": true,
+        "hobbies": ["Jellyfishing", "cooking", "karate"]
+    },
+    {
+        "name": "Patrick",
+        "age": 34,
+        "isEmployed": false
+    },
+    {
+        "name": "Sandy",
+        "age": 15,
+        "isEmployed": true
+    },
+    {
+        "name": "Lula Molusco",
+        "age": 44,
+        "isEmployed": true
+    }
+]
+
